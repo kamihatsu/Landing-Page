@@ -137,3 +137,30 @@ header nav{
 .quote .h5{
     text-align: right;
 }
+
+.cta {  
+    padding: 5% 15%;
+}
+
+.cta-block{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 5% 5%;
+}
+
+.cta-block button{
+    border: 1px solid #f9faf8;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+
