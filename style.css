@@ -82,3 +82,35 @@ header nav{
     height: 250px;
     width: 50%;
 }
+
+.product {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.product h2{
+    margin-bottom: 25px;
+}
+
+.product-cards{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+}
+.product-card__img{
+    height: 200px;
+    width: 200px;
+    border: 5px #3882f6 solid;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
